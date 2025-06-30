@@ -1,6 +1,8 @@
 Q3 2025 Builders Qualifier
 
 A comprehensive development suite implementing Solana blockchain functionalities in both Rust and TypeScript. Created for the Q3 2025 Builders Qualifier program to demonstrate proficiency in Solana ecosystem development.
+
+
 📂 Architecture Overview
 
 Q3_2025_Builders_Qualifier/
@@ -16,7 +18,6 @@ Q3_2025_Builders_Qualifier/
 │   ├── package.json               # Node.js project configuration
 │   └── node_modules/              # Package dependencies (git-ignored)
 └── .gitignore                     # Version control exclusions
-
 🌟 Implementation Features
 Rust Implementation (airdrop_rs/)
 
