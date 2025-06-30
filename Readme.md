@@ -1,10 +1,10 @@
-Q3 2025 Builders Qualifier
+# Q3 2025 Builders Qualifier
 
 A comprehensive development suite implementing Solana blockchain functionalities in both Rust and TypeScript. Created for the Q3 2025 Builders Qualifier program to demonstrate proficiency in Solana ecosystem development.
 
+## 📂 Architecture Overview
 
-📂 Architecture Overview
-
+```
 Q3_2025_Builders_Qualifier/
 ├── airdrop_rs/                    # Rust-based implementation
 │   ├── src/
@@ -18,35 +18,36 @@ Q3_2025_Builders_Qualifier/
 │   ├── package.json               # Node.js project configuration
 │   └── node_modules/              # Package dependencies (git-ignored)
 └── .gitignore                     # Version control exclusions
-🌟 Implementation Features
-Rust Implementation (airdrop_rs/)
+```
 
-    ✅ Keypair generation & Base58 conversion
-    🚰 Airdrop SOL tokens from devnet
-    🔄 Transfer partial and full wallet balances
-    📤 Submit to the Turbin3 program
 
-TypeScript Implementation (airdrop_ts/)
+## 🌟 Implementation Features
 
-    🔑 Wallet generation & key conversion
-    🚰 Airdrop requests from Solana devnet
-    🔄 Transfer SOL to specific addresses or full balance
-    📝 Enroll in Turbin3 program and handle prerequisites
+### Rust Implementation (`airdrop_rs/`)
+- ✅ Keypair generation & Base58 conversion
+- 🚰 Airdrop SOL tokens from devnet
+- 🔄 Transfer partial and full wallet balances
+- 📤 Submit to the Turbin3 program
 
-⚙️ Development Environment
-Rust
+### TypeScript Implementation (`airdrop_ts/`)
+- 🔑 Wallet generation & key conversion
+- 🚰 Airdrop requests from Solana devnet
+- 🔄 Transfer SOL to specific addresses or full balance
+- 📝 Enroll in Turbin3 program and handle prerequisites
 
-    Rust (latest stable)
-    Cargo
+## ⚙️ Development Environment
+### Rust
+- [Rust](https://rustup.rs/) (latest stable)
+- [Cargo](https://doc.rust-lang.org/cargo/)
 
-TypeScript
+### TypeScript
+- [Node.js](https://nodejs.org/) (v16+)
+- [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
 
-    Node.js (v16+)
-    Yarn or npm
+## 🔨 Build Instructions
 
-🔨 Build Instructions
-Rust Setup
-
+### Rust Setup
+```bash
 cd airdrop_rs
 cargo build
 
@@ -125,6 +126,5 @@ This project is part of the Q3 2025 Builders Qualifier challenge.
 
 
 Note: This repository is for educational and qualification purposes. Use only on Solana Devnet unless explicitly instructed.
-
 
 
